@@ -17,6 +17,10 @@ h1 {
   align-items: center;
 }
 
+#activeWork {
+  text-decoration:underline;
+}
+
 
 ul {
   color: white;
@@ -65,6 +69,13 @@ li {
   cursor: pointer;
   list-style-type: none;
 }
+
+.button {
+  background-color: transparent;
+  color: white;;
+  font-weight: 100;
+}
+
 
 
 .workGrid {
@@ -124,6 +135,12 @@ button {
   align-content: bottom;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
   .ContactMe {
     text-align: center;
@@ -137,6 +154,8 @@ button {
     margin: 50px auto;
 
   }
+
+
 
   @media only screen and (max-width: 600px) {
     .workGrid {
